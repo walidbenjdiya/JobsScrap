@@ -24,7 +24,7 @@ jobs:
 
     - name: Build executable
       run: |
-        pyinstaller --onefile --windowed --add-data="./scraper1.png:." jobs/mainFront.py  # Remplacez 'your_script.py' par votre fichier Python
+        pyinstaller --onefile --windowed --add-data="./scraper1.png:." JobsScrap/mainFront.py  # Remplacez 'your_script.py' par votre fichier Python
 
     - name: Upload executable
       uses: actions/upload-artifact@v3
